@@ -8,8 +8,44 @@ This project is not meant to replace Kibana or Grafana (obviously), but is a way
 Additionally, this dashboard adopts a group-based approach utilizing Wazuh groups to organize and manage data more effectively.
 
 ## Installation
+To install this project on your local machine, follow these steps:
+
+1. **Clone the repository**: cd /opt/ && git clone https://github.com/A3gisS3c/YASD.git
+2. **Navigate to the project directory**: cd YASD/
+3. **Run the installation script**: chmod +x install.sh && sudo ./install.sh
 
 # Screenshots
+Alerts >= 12 for all groups
+
+![Screen](/screenshots/YASD1.png)
+
+Alerts >= 6 for a specific group
+
+![Screen](/screenshots/YASD2.png)
+
+Connections made by user for a specific group. Only SSH/RDP connections are tracked.
+
+![Screen](/screenshots/YASD3.png)
+
+General view for servers in a specific group.
+
+![Screen](/screenshots/YASD4.png)
+
+Unlike Wazuh-dashboard, vulnerability are grouped by their package name.
+
+![Screen](/screenshots/YASD5.png)
+
+SCA view
+
+![Screen](/screenshots/YASD6.png)
+
+FIM view
+
+![Screen](/screenshots/YASD7.png)
+
+Active Directory Audit
+
+![Screen](/screenshots/YASD8.png)
 
 # License
 YASD - Yet Another Sécurity Dashboard
