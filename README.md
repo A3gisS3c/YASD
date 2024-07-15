@@ -1,1 +1,1 @@
-<h1>Important note</h1>
+<h3>Important note</h3>
