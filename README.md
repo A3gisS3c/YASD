@@ -8,6 +8,11 @@ This project is not meant to replace Kibana or Grafana (obviously), but is a way
 Additionally, this dashboard adopts a group-based approach utilizing Wazuh groups to organize and manage data more effectively.
 
 ## Installation
+To install this project on your local machine, follow these steps:
+
+1. **Clone the repository**: 
+2. **Navigate to the project directory**: cd YASD/
+3. **Run the installation script**: chmod +x install.sh && ./install.sh
 
 # Screenshots
 Alerts >= 12 for all groups
