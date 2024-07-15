@@ -1,0 +1,36 @@
+{
+  "name": "YASD",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "@singleway/vueflags": "^0.1.18",
+    "axios": "^1.4.0",
+    "core-js": "^3.32.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.4.5",
+    "echarts": "^5.4.3",
+    "pinia": "^2.1.6",
+    "roboto-fontface": "*",
+    "vue": "^3.3.4",
+    "vue-echarts": "^6.6.0",
+    "vue-i18n": "^9.13.1",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.3.10",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "sass": "^1.64.2",
+    "vite": "^4.4.7",
+    "vite-plugin-vuetify": "^2.0.3"
+  }
+}
