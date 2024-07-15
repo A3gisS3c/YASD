@@ -28,14 +28,14 @@ app.get('/config', (req, res) => {
 app.use('/opensearch', jwtMiddleware, openSearchMiddleware());
 app.use('/wazuh', jwtMiddleware, wazuhAuthAndProxyMiddleware());
 
-//Dev
+/*Dev
 app.use(createProxyMiddleware('/', {
     target: yasdConfig.VUE_APP_URL,
     changeOrigin: true,
     logLevel: 'info'
-}));
+}));*/
 
-/*Production
+Production
 const path = require('path');
 const staticPath = '/var/www/yasd/dist/';
 app.use(express.static(staticPath, {
@@ -44,7 +44,7 @@ app.use(express.static(staticPath, {
             res.set('Content-Type', 'application/javascript');
         }
         }
-}));*/
+}));
 
 app.use(function (err, req, res, next) {
     if (err.name === 'UnauthorizedError') {
