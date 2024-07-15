@@ -10,6 +10,24 @@ Additionally, this dashboard adopts a group-based approach utilizing Wazuh group
 ## Installation
 
 # Screenshots
+Alerts >= 12 for all groups
+
+![Screen](/screenshots/YASD1.png)
+
+Alerts >= 6 for a specific group
+
+![Screen](/screenshots/YASD2.png)
+
+Connections made by user for a specific group. Only SSH/RDP connections are tracked.
+
+![Screen](/screenshots/YASD3.png)
+
+
+![Screen](/screenshots/YASD4.png)
+![Screen](/screenshots/YASD5.png)
+![Screen](/screenshots/YASD6.png)
+![Screen](/screenshots/YASD7.png)
+![Screen](/screenshots/YASD8.png)
 
 # License
 YASD - Yet Another Sécurity Dashboard
