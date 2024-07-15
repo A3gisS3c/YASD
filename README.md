@@ -22,11 +22,24 @@ Connections made by user for a specific group. Only SSH/RDP connections are trac
 
 ![Screen](/screenshots/YASD3.png)
 
+General view for servers in a specific group.
 
 ![Screen](/screenshots/YASD4.png)
+
+Unlike Wazuh-dashboard, vulnerability are grouped by their package name.
+
 ![Screen](/screenshots/YASD5.png)
+
+SCA view
+
 ![Screen](/screenshots/YASD6.png)
+
+FIM view
+
 ![Screen](/screenshots/YASD7.png)
+
+Active Directory Audit
+
 ![Screen](/screenshots/YASD8.png)
 
 # License
