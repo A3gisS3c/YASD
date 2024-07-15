@@ -12,7 +12,7 @@ To install this project on your local machine, follow these steps:
 
 1. **Clone the repository**: cd /opt/ && git clone https://github.com/A3gisS3c/YASD.git
 2. **Navigate to the project directory**: cd YASD/
-3. **Run the installation script**: chmod +x install.sh && ./install.sh
+3. **Run the installation script**: chmod +x install.sh && sudo ./install.sh
 
 # Screenshots
 Alerts >= 12 for all groups
