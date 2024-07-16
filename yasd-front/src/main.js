@@ -34,7 +34,7 @@ fetchConfig().then(config => {
       .use(vuetify)
       .use(i18n)
       .use(createPinia())
-      .use(VueFlags, { iconPath: '/src/assets/flags/' })
+      .use(VueFlags, { iconPath: '/assets/flags/' })
       .component('v-chart', Echarts)
       .mount('#app');
 });

@@ -1,6 +1,6 @@
 <template>
   <v-navigation-drawer v-model="drawer" app theme="dark">
-    <v-img src="@/assets/logo.png" class="ma-5"></v-img>
+    <v-img src="/assets/logo.png" class="ma-5"></v-img>
     <v-divider class="border-opacity-25" />
     <v-list v-for="link in links" :key="link.text">
       <v-list-item

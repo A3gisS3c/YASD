@@ -73,7 +73,7 @@ export default {
 
 <style scoped>
 .login {
-  background: url("@/assets/authentication.jpg");
+  background: url("../../public/assets/authentication.jpg");
   background-size: cover;
 }
 
