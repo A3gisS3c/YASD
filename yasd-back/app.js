@@ -35,7 +35,7 @@ app.use(createProxyMiddleware('/', {
     logLevel: 'info'
 }));*/
 
-Production
+//Production
 const path = require('path');
 const staticPath = '/var/www/yasd/dist/';
 app.use(express.static(staticPath, {
