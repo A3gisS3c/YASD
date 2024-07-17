@@ -29,6 +29,11 @@ else
 	/usr/bin/echo "Symlink in Apache sites-enabled/ exists. Skipping" 1>&2
 fi
 
+/usr/sbin/a2enmod rewrite
+/usr/sbin/a2enmod ssl
+/usr/sbin/a2enmod proxy
+/usr/sbin/a2enmod headers
+
 ### YASD backend
 if ! id "yasd" &>/dev/null; then
 	/usr/bin/echo "Creating yasd user" 1>&2
