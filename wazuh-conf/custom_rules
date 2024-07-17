@@ -1,0 +1,26 @@
+<group name="Commands">
+  <rule id="100034" level="3">
+    <decoded_as>ossec</decoded_as>
+    <match>^ossec: output: 'uptime-check'</match>
+    <description>Machine Uptime</description>
+  </rule>
+  
+  <rule id="100035" level="8">
+    <if_sid>100034</if_sid>
+    <regex type='pcre2'>0*([1-9]\d{2,}|[9]\d)</regex>
+    <description>Machine Uptime more than 90 days.</description>
+  </rule>
+  
+  <rule id="100037" level="3">
+    <decoded_as>ossec</decoded_as>
+    <match>^ossec: output: 'root-password-check'</match>
+    <description>Root Password Age</description>
+  </rule>
+    
+  <rule id="100038" level="8">
+    <if_sid>100037</if_sid>
+    <regex type='pcre2'>([2-9]\d{2,}|[1-9]\d{3,}|[1-9][8-9]\d)$</regex>
+    <description>Root Password Age more than 180 days</description>
+  </rule>
+  
+</group>

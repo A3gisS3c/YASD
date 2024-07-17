@@ -1,0 +1,14 @@
+<agent_config>
+	<localfile>
+		<log_format>command</log_format>
+		<command>cat /proc/uptime | awk '{print int($1/86400)}'</command>
+		<alias>uptime-check</alias>
+		<frequency>43200</frequency>
+	</localfile>
+	<localfile>
+		<log_format>command</log_format>
+		<command>echo $(( ($(date +%s) / 86400) - $(sudo awk -F: '/^root:/ {print $3}' /etc/shadow) ))</command>
+		<alias>root-password-check</alias>
+		<frequency>43200</frequency>
+	</localfile>
+</agent_config>

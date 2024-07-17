@@ -1,0 +1,14 @@
+<agent_config>
+	<localfile>
+		<log_format>command</log_format>
+		<command>PowerShell.exe -command "(get-date) - (gcim Win32_OperatingSystem).LastBootUpTime | Select-Object -ExpandProperty 'Days'"</command>
+		<alias>uptime-check</alias>
+		<frequency>43200</frequency>
+	</localfile>
+	<localfile>
+		<log_format>command</log_format>
+		<command>PowerShell.exe -command "(get-date) - (get-date (NET USER Administrator)[8].Split(' ')[14]) | Select-Object -ExpandProperty 'Days'"</command>
+		<alias>root-password-check</alias>
+		<frequency>43200</frequency>
+	</localfile>
+</agent_config>

@@ -1,0 +1,13 @@
+<decoder name="uptime">
+    <parent>ossec</parent>
+    <prematch>^ossec: output: 'uptime-check':</prematch>
+    <regex offset="after_prematch">\s(\d+)</regex>
+    <order>machine.uptime</order>
+</decoder>
+
+<decoder name="rootPasswordAge">
+    <parent>ossec</parent>
+    <prematch>^ossec: output: 'root-password-check':</prematch>
+    <regex offset="after_prematch">\s(\d+)</regex>
+    <order>password.age</order>
+</decoder>

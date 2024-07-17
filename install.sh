@@ -79,4 +79,5 @@ echo "##########################################################################
 echo "Installation finished" 1>&2
 echo "Do not forget to edit Apache SSL (cert/key/server_name...) and systemctl reload Apache" 1>&2
 echo "Do not forget to edit /etc/yasd/yasd.conf and systemctl start yasd" 1>&2
+echo "Do not forget to install wazuh configuration files in wazuh-conf/ folder and to enable logcollector.remote_command inside each servers" 1>&2
 
