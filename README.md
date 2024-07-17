@@ -4,6 +4,9 @@ YASD serves as a user-friendly frontend for the EDR/SIEM Wazuh, specifically des
 This project is not meant to replace Kibana or Grafana (obviously), but is a way to show what a SIEM dashboard should look like from my perspective. 
 Additionally, this dashboard adopts a group-based approach utilizing Wazuh groups to organize and manage data more effectively.
 
+## Requirements
+Tested on Debian 12 (Bookworm) with npm v18.19.0
+
 ## Installation
 To install this project on your local machine, follow these steps:
 
