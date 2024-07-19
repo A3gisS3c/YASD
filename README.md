@@ -6,6 +6,7 @@ Additionally, this dashboard adopts a group-based approach utilizing Wazuh group
 
 ## Requirements
 Tested on Debian 12 (Bookworm) with npm v18.19.0
+Works only on Wazuh > 4.8.0 (as the vulnerability section has been entirely recoded by the  Wazuh team)
 
 ## Installation
 To install this project on your local machine, follow these steps:
