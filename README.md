@@ -5,7 +5,7 @@ This project is not meant to replace Kibana or Grafana (obviously), but is a way
 Additionally, this dashboard adopts a group-based approach utilizing Wazuh groups to organize and manage data more effectively.
 
 ## Requirements
-Tested on Debian 12 (Bookworm) with npm v18.19.0
+Tested on Debian 12 (Bookworm) with npm v18.19.0.
 Works only on Wazuh > 4.8.0 (as the vulnerability section has been entirely recoded by the  Wazuh team)
 
 ## Installation
