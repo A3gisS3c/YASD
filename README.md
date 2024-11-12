@@ -1,3 +1,6 @@
+## Important Note
+This project is now in inactive maintenance mode. This means that while I merge pull requests for bug fixes and straightforward issues, I currently lack the time to add new features or expand existing ones.
+
 ![Logo](/logo.png)
 # YASD - Yet Another Security Dashboard
 YASD serves as a user-friendly frontend for the EDR/SIEM Wazuh, specifically designed for lazy SOC analysts (^^). The goal is to provide a simplified and efficient interface that makes security operations more accessible and manageable.
